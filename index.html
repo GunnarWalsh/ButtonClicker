@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="top-nav">    
+                <h1 class="dojonary">Dojonary</h1>
+                <input type="text" placeholder="Search">
+                <button onclick="logOut(this)" class="login-button">Login</button>
+        </nav>
+        <div class="row">
+            <div class="definition">
+                <div class="spelling">
+                    <h1 class="ninja">ninja</h1>
+                    <h3 class="noun"><em>noun</em></h3>
+                    <h3 class="plural">Plural: <em>ninjas</em></h3>
+                    <button onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class="explanation">
+                    <p>A practitioner skilled in the</p>
+                    <p> <a href="#">Japanese</a> art of <a href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inspiration">
+                    <p>Dojonary is</p>
+                    <p>defined by <b>YOU</b> </p>
+                </div>
+                <button onclick="hide(this)" class="def-button">Add Definition</button>
+            </div>
+        </div>         
+        <div class="row-2">
+            <div class="definition">
+                <div class="spelling">
+                    <h1 class="ninja">ninja</h1>
+                    <h3 class="noun"><em>noun</em></h3>
+                    <h3 class="plural">Plural: <em>ninjas</em></h3>
+                    <button onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class="explanation">
+                    <p>A <a href="#">programmer</a> who breaks</p>
+                    <p> down problems with <a href="#">zen</a>-like</p>
+                    <p>focus</p>
+                </div>
+            </div>
+            <div class="blank"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
